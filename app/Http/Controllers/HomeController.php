@@ -70,7 +70,7 @@ class HomeController extends Controller
     }
 
     public function search(Request $request) {
-        $data = DB::table('tbl_product')->where('product_name', 'LIKE', '%'. $request->product_name .'%')->where('product_status', [1])->get();
+        $data = DB::table('tbl_product')->where('product_name', 'LIKE', '%'. $request->product_name .'%')->where('product_status', [1])->paginate(3);
         return view('pages.shop')->with(['products' => $data]);
     }
 

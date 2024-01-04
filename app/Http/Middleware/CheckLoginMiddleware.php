@@ -16,10 +16,12 @@ class CheckLoginMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $user = Auth::user()->getRoles->where('id', 6)->first(); // role['admin']->id = 6
-        if($user) {
+        $user = Auth::user();
+
+        if ($user !== null && $user->getRoles->where('id', 6)->first()) {
             return $next($request);
         }
-        return Redirect()->route('login');
+
+        return redirect()->route('login');
     }
 }

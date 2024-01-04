@@ -1,4 +1,4 @@
-@extends('welcome');
+@extends('welcome')
 @section('content')
 <!-- Carousel Start -->
 <div class="container-fluid mb-3">
