@@ -139,7 +139,7 @@ use Illuminate\Support\Facades\Session;
                     <div class="form-group">
                         <div class="custom-control custom-radio">
                             <input type="radio" class="custom-control-input" name="order_payment" value="direct check"
-                                id="directcheck">
+                                id="directcheck" checked>
                             <label class="custom-control-label" for="directcheck">Direct Check</label>
                         </div>
                     </div>

@@ -73,7 +73,7 @@
                         <td class="align-middle">
                             <a onclick="return confirm('Bạn có chắc muốn xóa?')"
                                 href="{{ URL::to('delete_cart/' . $item['id'] ) }}"
-                                class="btn btn-sm btn-danger">Xóa</a>
+                                class="btn btn-sm btn-danger">Delete</a>
                         </td>
                     </tr>
                     @endforeach
@@ -113,8 +113,8 @@
                         @endif
                     </div>
                     <a class="btn btn-block btn-danger font-weight-bold my-3 py-3"
-                        onclick="return confirm('Bạn có chắc muốn xóa?')" href="{{ URL::to('delete_all') }}">Hủy giỏ
-                        hàng</a>
+                        onclick="return confirm('Bạn có chắc muốn xóa?')" href="{{ URL::to('delete_all') }}">Cancel
+                        Cart</a>
                     <a href="{{ URL::to('/check_out') }}"
                         class="btn btn-block btn-primary font-weight-bold my-3 py-3">Proceed To Checkout</a>
                 </div>

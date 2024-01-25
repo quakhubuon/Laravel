@@ -28,27 +28,27 @@
                 <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                     <input class="test" style="position: absolute; left:0;" data-value="duoi-1-trieu" data-id="0"
                         type="checkbox" id="price-4">
-                    <label style=" margin-top: 8px" for="price-4">Dưới 1 triệu VNĐ</label>
+                    <label style=" margin-top: 8px" for="price-4">Under 1 million VNĐ</label>
                 </div>
                 <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-1">
                     <input class="test" style="position: absolute; left:0;" data-value="tu-1-5-trieu" data-id="0"
                         type="checkbox" id="price-1">
-                    <label style="margin-top: 8px" for="price-1">1 triệu VNĐ - 5 triệu VNĐ</label>
+                    <label style="margin-top: 8px" for="price-1">1 million VNĐ - 5 million VNĐ</label>
                 </div>
                 <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                     <input class="test" style="position: absolute; left:0;" data-value="tu-5-10-trieu" data-id="0"
                         type="checkbox" id="price-2">
-                    <label style="margin-top: 8px" for="price-2">5 triệu VNĐ - 10 triệu VNĐ</label>
+                    <label style="margin-top: 8px" for="price-2">5 million VNĐ - 10 million VNĐ</label>
                 </div>
                 <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                     <input class="test" style="position: absolute; left:0;" data-value="tu-10-15-trieu" data-id="0"
                         type="checkbox" id="price-3">
-                    <label style="margin-top: 8px" for="price-3">10 triệu VNĐ - 15 triệu VNĐ</label>
+                    <label style="margin-top: 8px" for="price-3">10 million VNĐ - 15 million VNĐ</label>
                 </div>
                 <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
                     <input class="test" style="position: absolute; left:0;" data-value="tren-15-trieu" data-id="0"
                         type="checkbox" id="price-5">
-                    <label style="margin-top: 8px" for="price-5">Trên 15 triệu VNĐ</label>
+                    <label style="margin-top: 8px" for="price-5">Trên 15 million VNĐ</label>
                 </div>
             </div>
             <!-- Price End -->

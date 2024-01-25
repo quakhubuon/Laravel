@@ -71,7 +71,7 @@ $user = Session::get('user');
                         if ($user) {
                         ?>
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">@php
-                            echo 'Xin chào ' . $user->name
+                            echo 'Hello ' . $user->name
                             @endphp</button>
                         <div class="dropdown-menu dropdown-menu-right">
                             <form action="{{ URL::to('user/log_out') }}" method="get">
