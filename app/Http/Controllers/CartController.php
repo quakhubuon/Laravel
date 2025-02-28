@@ -109,7 +109,7 @@ class CartController extends Controller
         }
         
         Session::forget('cart');
-        return Redirect('/home');
+        return Redirect('/home')->with('success', 'Place order successful!!!');
     }
 
     public function history_checkout(Request $request) {

@@ -13,6 +13,10 @@ class HomeController extends Controller
         return view('pages.home');
     }
 
+    public function test() {
+        echo 'ok';
+    }
+
     public function login() {
         return view('user_login');
     }
